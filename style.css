@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Josefin Sans";
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100vh;
+}
+
+.formContainer {
+  background-image: url(images/bg-pattern-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  width: 60%;
+}
+
+.formContent {
+  padding: 80px 200px;
+}
+
+.logoContent {
+  padding: 10px 0px 100px 0px;
+}
+
+.welcomingText {
+  font-size: 80px;
+  letter-spacing: 0.9rem;
+  padding: 30px 0px;
+}
+.welcomingTextOne {
+  font-weight: 300;
+  color: hsl(0, 36%, 70%);
+  padding: 10px 0px;
+}
+
+.welcomeTextTwo {
+  font-weight: 600;
+  color: black;
+  padding: 10px 0px;
+}
+
+.description {
+  color: hsl(0, 36%, 70%);
+  padding: 10px 80px 30px 0px;
+  line-height: 45px;
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.formSection {
+  margin-right: 80px;
+}
+
+form {
+  display: flex;
+  width: 100%;
+
+  align-items: center;
+}
+
+.emailSubmit {
+  width: 100%;
+  border: hsl(0, 34%, 76%) solid 1px;
+  border-radius: 25px;
+}
+
+.emailField {
+  height: 50px;
+  width: 80%;
+}
+
+.errorElement {
+  position: relative;
+  right: 40px;
+}
+
+#errorImage {
+  visibility: hidden;
+}
+
+input[type="email"] {
+  background: transparent;
+  border: none;
+  height: 55px;
+  padding-left: 20px;
+  font-weight: 500;
+  color: hsl(0, 36%, 70%);
+}
+
+input[type="email"]::placeholder {
+  color: hsl(0, 36%, 70%);
+  font-weight: 500;
+  font-size: 16px;
+}
+
+input[type="email"]:focus-visible,
+input[type="text"]:focus-visible {
+  outline: none;
+}
+
+.submitButton {
+  border: none;
+  width: 15%;
+  height: 40px;
+  border-radius: 25px;
+  text-align: center;
+  background: linear-gradient(90deg, hsl(0, 29%, 91%), hsl(0, 72%, 83%));
+  margin-right: 10px;
+  margin-left: 10px;
+  font-size: 19px;
+  font-weight: 600;
+  color: white;
+}
+
+button:hover {
+  background: linear-gradient(90deg, hsl(0, 52%, 86%), hsl(0, 70%, 75%));
+}
+
+.imageContainer {
+  width: 40%;
+  background-image: url(images/hero-desktop.jpg);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+.errorMessage {
+  color: red;
+  padding: 15px;
+}
