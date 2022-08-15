@@ -153,9 +153,10 @@ input:-webkit-autofill:active {
 
   .welcomingText {
     font-size: 40px;
-    letter-spacing: 0.9rem;
-    padding: 15px 0px;
+    letter-spacing: 0.5rem;
+    text-align: center;
   }
+
   .welcomingTextOne {
     font-weight: 300;
     color: hsl(0, 36%, 70%);
@@ -204,6 +205,7 @@ input:-webkit-autofill:active {
   .main {
     flex-direction: row-reverse;
   }
+
   .formContainer {
     background-size: cover;
     width: 60%;
