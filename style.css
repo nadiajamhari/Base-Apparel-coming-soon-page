@@ -23,6 +23,7 @@
 .formContainer {
   background-image: url(images/bg-pattern-desktop.svg);
   background-repeat: no-repeat;
+  height: 100vh;
 }
 
 .welcomingTextOne {
@@ -210,7 +211,7 @@ input:-webkit-autofill:active {
   }
 
   .formContent {
-    margin: 80px 200px;
+    margin: 40px 200px;
   }
 
   .welcomingText {
@@ -238,4 +239,3 @@ input:-webkit-autofill:active {
     display: none;
   }
 }
-
